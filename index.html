@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+      <script src="https://kit.fontawesome.com/04a87840a3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <video autoplay muted loop playsinline preload="auto"  id="bg-video">
+            <source src="https://res.cloudinary.com/dh4zia0yz/video/upload/v1750063158/LiveW_wblkvn.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+        </video>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <img src="" class="log">
+                </div>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+             </div>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Desinger</p>
+                <h1>Hi , I'm <span>Rohit</span> <br> Fasale From India</h1>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- -------------------- About ------------------- -->
+     <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                    <div class="about-layer">
+                        <H1>Hello This Is Rohit...</H1>
+                    </div>
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque repellat impedit ut nisi dicta, saepe suscipit, ad soluta iusto eum, ipsum praesentium rem totam nam hic qui atque doloribus dolores.</span><span>Nesciunt ullam reiciendis unde hic, nihil eveniet praesentium doloremque exercitationem perferendis fuga consequuntur. Quisquam officia fugiat molestiae adipisci distinctio, ullam possimus fugit quidem magni amet obcaecati laudantium, consequatur animi deleniti?</span><span>Modi neque excepturi in! Molestias fugiat velit, magni maxime neque aliquam voluptatibus culpa excepturi rem nulla deserunt dignissimos mollitia quis ab perspiciatis porro iste ducimus nesciunt atque reprehenderit maiores dicta.</span></p>
+                    <div class="tab-titles">
+                        <div class="tab-links active-link" onclick="opentab('skills')">Skills</div>
+                        <div class="tab-links"onclick="opentab('experience')">Experience</div>
+                        <div class="tab-links"onclick="opentab('education')">Education</div>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                            <li><span>Web Development</span><br>Designing Web Development<li>
+                            <li><span>App Development</span><br>Building Android Apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>UI/UX</span><br>6 Month Of Experience</li>
+                            <li><span>Web Development</span><br>6 Month Of Experience</li>
+                            <li><span>App Development</span><br>6 Month Of Experience</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>B.Tech</span><br>Vishwakarma Institute Of Information Technology</li>
+                            <li><span>Diploma</span><br>MET Bhujbal Knowledge City Adgaon</li>
+                            <li><span>10<sup>th</span><br>New English School Adgaon Nashik</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+     </div>
+
+      <!-- -------------------- Services ------------------- -->
+       <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="service-list">
+                <div class="box-1">
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque id commodi veritatis fugiat nobis, dolores enim, a cumque rem beatae rerum totam atque corporis! Ullam obcaecati sit harum repudiandae cumque.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div class="box-2">
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque id commodi veritatis fugiat nobis, dolores enim, a cumque rem beatae rerum totam atque corporis! Ullam obcaecati sit harum repudiandae cumque.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div class="box-3">
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Disign</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque id commodi veritatis fugiat nobis, dolores enim, a cumque rem beatae rerum totam atque corporis! Ullam obcaecati sit harum repudiandae cumque.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+       </div>
+
+         <!-- -------------------- Portfolio ------------------- -->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/work-1.png">
+                        <div class="layer">
+                            <h3>Social Media App</h3>
+                            <p>The App Connects You To The Talented People In The World
+                                download it from Playstore.
+                            </p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work-2.png">
+                        <div class="layer">
+                            <h3>Music App</h3>
+                            <p>The App Connects You To The Talented People In The World
+                                download it from Playstore.
+                            </p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work-3.png">
+                        <div class="layer">
+                            <h3>Online Shoping App</h3>
+                            <p>The App Connects You To The Talented People In The World
+                                download it from Playstore.
+                            </p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="btn-class">
+                    <a href="#" class="btn1">See More</a>
+                </div> -->
+                <a href="#" class="btn1">See More</a>
+            </div>
+        </div>
+
+        <!-- --------------- Contact ---------------- -->
+
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>contact@gmail.com</p>
+                        <p><i class="fa-solid fa-square-phone"></i>0123456789</p>
+                        <div class="social-icons">
+                            <!-- <div class="Facebook">
+                                <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                            </div>
+                            <div class="twitter">
+                                <a href="https://twitter.com/"><i class="fa-brands fa-twitter-square"></i></a>
+                            </div>
+                            <div class="instagram">
+                                <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                            </div>
+                            <div class="linkedin">
+                                <a href="https://linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                            </div> -->
+                            <a href="https://facebook.com/" class="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://twitter.com/" class="twitter"><i class="fa-brands fa-twitter-square"></i></a>
+                            <a href="https://instagram.com/" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://linkedin.com/" class="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <a href="images/my-cv.pdf" download class="btn1">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                Copyright © Rohit Fasale.
+            </div>
+        </div>
+
+
+
+
+    <script>
+        let tablinks = document.getElementsByClassName('tab-links');
+        let tabcontents = document.getElementsByClassName('tab-contents');
+
+        function opentab(eve){
+            for(tablink of tablinks){
+                tablink.classList.remove('active-link')
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove('active-tab')
+            }
+            event.currentTarget.classList.add('active-link');
+            document.getElementById(eve).classList.add('active-tab');
+        }
+    </script>
+
+    <script>
+        let sidM = document.getElementById('sidemenu')
+        function openmenu(){
+            sidM.style.right = '0';
+        }
+        function closemenu(){
+            sidM.style.right = '-200px';
+        }
+    </script>
+    
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyN3IZ-736MmnMNLadJrFVA7EE7GUNe88fVpCiqsAj15cotndRGKN_gyQel9FzCEQ3vAg/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message Sent Successfully..."
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+</body>
+</html>
