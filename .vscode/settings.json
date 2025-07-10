@@ -7,5 +7,6 @@
         "activityBarBadge.background": "#dfdfff",
         "activityBarBadge.foreground": "#15202b",
         "sash.hoverBorder": "#00b300"
-    }
+    },
+    "liveServer.settings.port": 5501
 }
